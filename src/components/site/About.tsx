@@ -15,7 +15,7 @@ export function About() {
       />
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 lg:grid-cols-2">
         <Reveal className="order-2 lg:order-1">
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 items-start gap-4">
             <div className="surface-card overflow-hidden rounded-[2rem] p-0">
               <img
                 src={cat.url}
